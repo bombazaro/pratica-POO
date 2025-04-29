@@ -32,5 +32,10 @@ public class App {
         System.out.println(primeiraBatedeira.obterCor());
         System.out.println(primeiraBatedeira.obterMarca());
         System.out.println(primeiraBatedeira.obterPreco());
+
+        Disciplina poo = new Disciplina("POO", "Progranação Orientada a Objeto", "POO786202");
+
+        System.out.println("\n Disciplina");
+        System.out.println(poo);
     }
 }
